@@ -1,0 +1,12 @@
+{
+  "name": "apng-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "纯 H5 的 APNG 伪装图分析与制作工具",
+  "type": "module",
+  "scripts": {
+    "serve": "python -m http.server 8080",
+    "test": "node test/roundtrip.test.mjs",
+    "verify:python": "python test/verify_apng.py"
+  }
+}
